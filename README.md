@@ -28,7 +28,7 @@ on `pages/index.js`, you'll find the `useMetamask` hook that we use to connect t
 
 ## Introduction
 
-In this guide, we will utilize the [**Multiwrap**](https://portal.web3sdk.io/typescript/sdk.multiwrap) contract.
+In this guide, we will utilize the [**Multiwrap**](https://docs.web3sdk.io/typescript/sdk.multiwrap) contract.
 
 Multiwrap lets you wrap any number of ERC20, ERC721 and ERC1155 tokens you own into a single wrapped token bundle.
 
@@ -36,9 +36,9 @@ The single wrapped token received on bundling up multiple assets, as mentioned a
 
 ## Tools:
 
-- [**web3sdkio Multiwrap**](https://portal.web3sdk.io/typescript/sdk.multiwrap)
+- [**web3sdkio Multiwrap**](https://docs.web3sdk.io/typescript/sdk.multiwrap)
 
-- [**web3sdkio React SDK**](https://docs.web3sdk.io/react): The use of hooks such as [useMetamask](https://portal.web3sdk.io/react/react.usemetamask), [useAddress](https://portal.web3sdk.io/react/react.useaddress), [useNFTs](https://portal.web3sdk.io/react/react.usenfts) and a few others.
+- [**web3sdkio React SDK**](https://docs.web3sdk.io/react): The use of hooks such as [useMetamask](https://docs.web3sdk.io/react/react.usemetamask), [useAddress](https://docs.web3sdk.io/react/react.useaddress), [useNFTs](https://docs.web3sdk.io/react/react.usenfts) and a few others.
 
 ## Using This Repo
 
@@ -115,7 +115,7 @@ const wrappedTokenId = tx.id; // the id of the wrapped token bundle
 
 ## Unwrapping Tokens
 
-To unwrap tokens, we call [.unwrap](https://portal.web3sdk.io/typescript/sdk.multiwrap.unwrap). It will return the transaction receipt.
+To unwrap tokens, we call [.unwrap](https://docs.web3sdk.io/typescript/sdk.multiwrap.unwrap). It will return the transaction receipt.
 
 ```jsx
 await multiwrapContract.unwrap(wrappedTokenId);
@@ -145,4 +145,4 @@ You can check out [the web3sdkio GitHub organization](https://github.com/web3sdk
 
 ## Join our Discord!
 
-For any questions, suggestions, join our discord at [https://discord.gg/cd web3sdkio](https://discord.gg/web3sdkio).
+For any questions, suggestions, join our discord at [https://discord.gg/cd web3sdkio](https://discord.gg/n33UhsfUKB).
